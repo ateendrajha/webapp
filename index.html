@@ -1,0 +1,16 @@
+<html>
+    <h1>Program on Programming</h1>
+    <body>
+        <center>
+            {% if name%}
+            <h3> Hello {{name}} </h3>
+            {%endif%}
+        </center>
+        <form class='grid' , action='/result', method = "POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+        </form>
+
+    </body>
+    
+</html>
